@@ -113,6 +113,41 @@
   dependencies:
     "tslib" "^2.4.0"
 
+"@tanstack/query-core@4.15.1":
+  "integrity" "sha512-+UfqJsNbPIVo0a9ANW0ZxtjiMfGLaaoIaL9vZeVycvmBuWywJGtSi7fgPVMCPdZQFOzMsaXaOsDtSKQD5xLRVQ=="
+  "resolved" "https://registry.npmjs.org/@tanstack/query-core/-/query-core-4.15.1.tgz"
+  "version" "4.15.1"
+
+"@tanstack/react-query@^4.16.1", "@tanstack/react-query@^4.3.8":
+  "integrity" "sha512-PDE9u49wSDykPazlCoLFevUpceLjQ0Mm8i6038HgtTEKb/aoVnUZdlUP7C392ds3Cd75+EGlHU7qpEX06R7d9Q=="
+  "resolved" "https://registry.npmjs.org/@tanstack/react-query/-/react-query-4.16.1.tgz"
+  "version" "4.16.1"
+  dependencies:
+    "@tanstack/query-core" "4.15.1"
+    "use-sync-external-store" "^1.2.0"
+
+"@trpc/client@^10.0.0-rc.8", "@trpc/client@10.0.0-rc.8":
+  "integrity" "sha512-NuQl7g1tkfFYn6P6dZJJkVsxnxutYpaxmpG/w5ZKW3QVu6cY1joUOrWakunKrghh3HS+svgLaPz0Xl0PlmdSlw=="
+  "resolved" "https://registry.npmjs.org/@trpc/client/-/client-10.0.0-rc.8.tgz"
+  "version" "10.0.0-rc.8"
+
+"@trpc/next@^10.0.0-rc.8":
+  "integrity" "sha512-l2TZF22virmC3RROD7qu0dnc3sdYfVvkOhAu1qP5+8fRgs4cgHKBFdalQ+SKBnU0RNuVLYVw0CkyvU+gHo5u2w=="
+  "resolved" "https://registry.npmjs.org/@trpc/next/-/next-10.0.0-rc.8.tgz"
+  "version" "10.0.0-rc.8"
+  dependencies:
+    "react-ssr-prepass" "^1.5.0"
+
+"@trpc/react-query@^10.0.0-proxy-beta.21", "@trpc/react-query@^10.0.0-rc.8":
+  "integrity" "sha512-LKL29llvGtwYmfKGuCYSgNNChOL8/6PInY90i+ZgI8TLO6ZCJaVrPBSvqtxKj3MSezbK3kOxWIviKVFwV35L0A=="
+  "resolved" "https://registry.npmjs.org/@trpc/react-query/-/react-query-10.0.0-rc.8.tgz"
+  "version" "10.0.0-rc.8"
+
+"@trpc/server@^10.0.0-rc.8", "@trpc/server@10.0.0-rc.8":
+  "integrity" "sha512-+NsQqaJGHTiiBcOesH1bIictnnSO+SXaCOy5pM/324QBnJRt9VOO8oYDLcHSwAbJpAbOA+vl6YHs8OoykW6D2g=="
+  "resolved" "https://registry.npmjs.org/@trpc/server/-/server-10.0.0-rc.8.tgz"
+  "version" "10.0.0-rc.8"
+
 "@types/json5@^0.0.29":
   "integrity" "sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ=="
   "resolved" "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
@@ -1194,7 +1229,7 @@
   "resolved" "https://registry.npmjs.org/natural-compare/-/natural-compare-1.4.0.tgz"
   "version" "1.4.0"
 
-"next@13.0.3":
+"next@*", "next@13.0.3":
   "integrity" "sha512-rFQeepcenRxKzeKlh1CsmEnxsJwhIERtbUjmYnKZyDInZsU06lvaGw5DT44rlNp1Rv2MT/e9vffZ8vK+ytwXHA=="
   "resolved" "https://registry.npmjs.org/next/-/next-13.0.3.tgz"
   "version" "13.0.3"
@@ -1388,7 +1423,7 @@
   "resolved" "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   "version" "1.2.3"
 
-"react-dom@^18.2.0", "react-dom@18.2.0":
+"react-dom@^16.8.0 || ^17.0.0 || ^18.0.0", "react-dom@^18.2.0", "react-dom@>=16.8.0", "react-dom@18.2.0":
   "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
   "version" "18.2.0"
@@ -1401,7 +1436,12 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   "version" "16.13.1"
 
-"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.2.0":
+"react-ssr-prepass@^1.5.0":
+  "integrity" "sha512-yFNHrlVEReVYKsLI5lF05tZoHveA5pGzjFbFJY/3pOqqjGOmMmqx83N4hIjN2n6E1AOa+eQEUxs3CgRnPmT0RQ=="
+  "resolved" "https://registry.npmjs.org/react-ssr-prepass/-/react-ssr-prepass-1.5.0.tgz"
+  "version" "1.5.0"
+
+"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16.8.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -1669,7 +1709,7 @@
   dependencies:
     "punycode" "^2.1.0"
 
-"use-sync-external-store@1.2.0":
+"use-sync-external-store@^1.2.0", "use-sync-external-store@1.2.0":
   "integrity" "sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA=="
   "resolved" "https://registry.npmjs.org/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz"
   "version" "1.2.0"
@@ -1711,3 +1751,8 @@
   "integrity" "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="
   "resolved" "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   "version" "0.1.0"
+
+"zod@^3.19.1":
+  "integrity" "sha512-LYjZsEDhCdYET9ikFu6dVPGp2YH9DegXjdJToSzD9rO6fy4qiRYFoyEYwps88OseJlPyl2NOe2iJuhEhL7IpEA=="
+  "resolved" "https://registry.npmjs.org/zod/-/zod-3.19.1.tgz"
+  "version" "3.19.1"
