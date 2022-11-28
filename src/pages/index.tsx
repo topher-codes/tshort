@@ -1,12 +1,12 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
+import { useState } from 'react';
+import Link from 'next/link';
 
 const Home: NextPage = () => {
-	function fuckYou() {
-		alert('Fuck You!');
-	}
+	const [input, setInput] = useState('');
+
 	return (
 		<div className={styles.container}>
 			<Head>
@@ -16,7 +16,14 @@ const Home: NextPage = () => {
 			</Head>
 
 			<main className={styles.main}>
-				<button onClick={() => alert('Fuck You!')}>Click Me!</button>
+				<input
+					type="text"
+					value={input}
+					onChange={(e) => setInput(e.target.value)}
+				/>
+				<button>
+					<Link href={`http://localhost:3000/api/${input}`}>Click Me!</Link>
+				</button>
 			</main>
 		</div>
 	);
